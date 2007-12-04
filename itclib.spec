@@ -1,6 +1,6 @@
 %define	name		itclib
 %define	version		1.1.2
-%define	release		9mdk
+%define	release		 %mkrel 9
 %define	lib_name_orig	lib%{name}
 %define	lib_major	0
 %define	lib_name	%mklibname %{name} %{lib_major}
