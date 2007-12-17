@@ -14,7 +14,6 @@ License:	LGPL
 Group:		System/Libraries
 URL:		http://www.derkarl.org/itc/
 Summary:	ITC is a powerful C++ thread library
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	flex
 
 %description
