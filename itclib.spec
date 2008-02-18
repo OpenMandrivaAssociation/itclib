@@ -13,7 +13,7 @@ Patch0:		%{name}-1.1.2-gcc3.3-fix.patch.bz2
 License:	LGPL
 Group:		System/Libraries
 URL:		http://www.derkarl.org/itc/
-Summary:	ITC is a powerful C++ thread library
+Summary:	Powerful C++ thread library
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	flex
 
@@ -25,7 +25,7 @@ it also provides a complete threading API, with the four threading
 primitives and a high speed threadsafe FIFO class.
 
 %package -n	%{lib_name}
-Summary:	ITC is a powerful C++ thread library
+Summary:	Powerful C++ thread library
 Group:		System/Libraries
 Provides:	%{name} = %{version}-%{release}
 Provides:	%{lib_name_orig}2
