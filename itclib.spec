@@ -12,7 +12,7 @@ Source0:	http://www.derkarl.org/itc/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-1.1.2-gcc3.3-fix.patch.bz2
 License:	LGPL
 Group:		System/Libraries
-URL:		http://www.derkarl.org/itc/
+URL:		https://www.derkarl.org/itc/
 Summary:	Powerful C++ thread library
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	flex
