@@ -15,6 +15,11 @@ Group:		System/Libraries
 URL:		https://www.derkarl.org/itc/
 Summary:	Powerful C++ thread library
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	flex
 
 %description
